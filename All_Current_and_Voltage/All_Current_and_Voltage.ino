@@ -11,8 +11,8 @@ void setup(void)
     
   Serial.begin(115200);
   Serial.println("Hello!"); 
+  
   Serial.println("Measuring voltage and current with INA219 ...");
- 
   ina219_A.begin();
   ina219_B.begin();
   ina219_C.begin();
@@ -50,7 +50,7 @@ void loop(void)
   Serial.print("Current 1:    "); Serial.print(current3_mA); Serial.println(" mA");
   Serial.println("");
 
-  delay(200);
+  delay(2000);
 }
 
 /*
