@@ -38,7 +38,7 @@ void loop(void)
   current3_mA = ina219_C.getCurrent_mA();
 
   
-  Serial.print("Voltage 1:    "); Serial.print(voltage1 * 2.00); Serial.println(" V");
+  Serial.print("Voltage 1:    "); Serial.print(voltage1 * 2.134); Serial.println(" V");
   Serial.print("Current 1:    "); Serial.print(current1_mA); Serial.println(" mA");
   Serial.println("");
   
@@ -46,7 +46,7 @@ void loop(void)
   Serial.print("Current 2:    "); Serial.print(current2_mA); Serial.println(" mA");
   Serial.println("");
    
-  Serial.print("Voltage 3:    "); Serial.print(voltage3 * 1.50); Serial.println(" V");
+  Serial.print("Voltage 3:    "); Serial.print(voltage3 * 2.20); Serial.println(" V");
   Serial.print("Current 3:    "); Serial.print(current3_mA); Serial.println(" mA");
   Serial.println("");
   Serial.println("");
